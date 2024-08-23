@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google"
+import { Inter, Ms_Madi } from "next/font/google"
 import "./globals.css";
 import Header from "./ui/Header";
 import Footer from "./ui/Footer";
@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en" className="bg-blue-400">
       <body className={`${inter.className} min-h-screen grid grid-cols-1 grid-rows-12`}>
         <Header/>
-        <Main children={children} />
+        <Main>{children}</Main>
         <Footer />
       </body>
     </html>
