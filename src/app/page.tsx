@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Posts } from "./posts/posts";
-import { posts } from "./posts/data"
+import { posts } from "./posts/data";
 
 export default function Home() {
   const recentPosts = posts.slice(0, 2);
@@ -9,7 +9,7 @@ export default function Home() {
     <div className="mt-10 text-center">
       <section className="mb-10">
         <h1 className="text-4xl font-bold">Welcome to My Blog</h1>
-        <p className="mt-4 text-lg">Hi, I'm David. I am not a blogger, this is just a small personal blog project
+        <p className="mt-4 text-lg">Hi, I am David. I am not a blogger, this is just a small personal blog project
            to try out Frontend technologies.</p>
       </section>
 
