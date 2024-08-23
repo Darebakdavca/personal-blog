@@ -2,7 +2,7 @@ export default function Page() {
     return (
         <>
             <div className="border-b-4 border-blue-300 pb-4 text-center">
-                <h2 className="text-2xl">About Me</h2>
+                <h2 className="text-4xl font-bold">About Me</h2>
             </div>
             <div className="mt-4 rounded-md bg-blue-500 p-6">
                 <p className="text-white">

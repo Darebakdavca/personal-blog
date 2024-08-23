@@ -6,6 +6,9 @@ export default function Header() {
             <h1 id="main-title-of-page" className="text-3xl"><Link href="/">David Brablc</Link></h1>
             <nav id="nav-bar" className="flex items-center gap-4 text-xl">
                 <div className="hover:text-white">
+                    <Link href="/posts">Posts</Link>
+                </div>
+                <div className="hover:text-white">
                     <Link href="/about-me">About me</Link>
                 </div>
                 <div className="hover:text-white">
